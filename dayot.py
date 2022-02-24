@@ -231,3 +231,4 @@ def valentine(app, message):
 @app.on_message(filters.command("help", prefixes="/") & filters.me)
 def valentine(app, message):
     app.send_message(message.chat.id,f'''
+app.run()
