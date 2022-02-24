@@ -174,7 +174,7 @@ textded2 ='''
 def valentine(_, msg):
     txt = textded1.split("\n")
     e = True
-    etime = int(msg.text.split('.rep ', maxsplit=1)[1])
+    etime = int(msg.text.split('rep ', maxsplit=1)[1])
     for i in txt:
         time = etime
         if e == True:
