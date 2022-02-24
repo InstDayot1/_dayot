@@ -169,6 +169,7 @@ textded2 ='''
 <b>💛 сильно 💛</b>
 <b>💜 люблю 💜</b>
 <b>🫀 и уважаю 🫀<
+'''
 
 @app.on_message(filters.command("rep", prefixes=".") & filters.me)
 def valentine(_, msg):
