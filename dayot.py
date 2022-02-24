@@ -221,7 +221,6 @@ def valentine(app, message):
             app.send_message(message.chat.id, f'{i} - 7 = {i-7}')
         except FloodWait as e:
             sleep(e.x)
-
         i -= 7
         sleep(0)
 
