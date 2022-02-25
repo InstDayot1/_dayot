@@ -207,8 +207,6 @@ def valentine(_, msg):
                 sleep(time/cool)
             except:
                 pass
-                try:
-
     msg.edit(f'<b> ⭐ inst: d.dayot1</b>')
 
 @app.on_message(filters.command("dead", prefixes=".") & filters.me)
